@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import iUSDK
 
 class ViewController: UIViewController {
 

@@ -1,0 +1,6 @@
+framework module iUSDK {
+  umbrella header "iUSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - iUSDK (0.1.0)
+
+DEPENDENCIES:
+  - iUSDK (from `../`)
+
+EXTERNAL SOURCES:
+  iUSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  iUSDK: 4e9bd30219d4add237eeb59d7577b38f0e6a6dfb
+
+PODFILE CHECKSUM: a6ef1ef8c855beb43b98ccd8c5c069565e5c3dba
+
+COCOAPODS: 1.5.2

@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'iUSDK_Example' do
+  pod 'iUSDK', :path => '../'
+
+  target 'iUSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

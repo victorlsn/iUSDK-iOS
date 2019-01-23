@@ -4,12 +4,14 @@ A SDK iU é uma SDK para simplificar a tarefa de buscar contatos na agenda de di
 ## Download
 
 1. Adicione Jitpack à sua lista de repositórios no build.gradle do projeto:
+```json
 	allprojects {
 		repositories {
 			...
 			maven { url 'https://jitpack.io' }
 		}
 	}
+```
   
 2. Adicione a dependência no build.gradle do módulo:
 

@@ -1,28 +1,25 @@
 # iUSDK
+A SDK iU é uma SDK para simplificar a tarefa de buscar contatos na agenda de dispositivos Android.
 
-[![CI Status](https://img.shields.io/travis/victorlsn@gmail.com/iUSDK.svg?style=flat)](https://travis-ci.org/victorlsn@gmail.com/iUSDK)
-[![Version](https://img.shields.io/cocoapods/v/iUSDK.svg?style=flat)](https://cocoapods.org/pods/iUSDK)
-[![License](https://img.shields.io/cocoapods/l/iUSDK.svg?style=flat)](https://cocoapods.org/pods/iUSDK)
-[![Platform](https://img.shields.io/cocoapods/p/iUSDK.svg?style=flat)](https://cocoapods.org/pods/iUSDK)
+## Download
 
-## Example
+1. Adicione Jitpack à sua lista de repositórios no build.gradle do projeto:
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+  
+2. Adicione a dependência no build.gradle do módulo:
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
-
-## Installation
-
-iUSDK is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod 'iUSDK'
-```
-
+	dependencies {
+	        implementation 'com.github.victorlsn:iUSDK:1.0.1'
+	}
+  
 ## Author
 
-victorlsn@gmail.com, victor@iuapp.com.br
+victorlsn@gmail.com
 
 ## License
 

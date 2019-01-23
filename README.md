@@ -7,6 +7,7 @@ A SDK iU é uma SDK para simplificar a tarefa de buscar contatos na agenda de di
 ```javascript
 allprojects {
 	repositories {
+		...
 		maven { url 'https://jitpack.io' }
 	}
 }

@@ -5,13 +5,7 @@
 [![License](https://img.shields.io/cocoapods/l/iUSDK.svg?style=flat)](https://cocoapods.org/pods/iUSDK)
 [![Platform](https://img.shields.io/cocoapods/p/iUSDK.svg?style=flat)](https://cocoapods.org/pods/iUSDK)
 
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
-
-## Installation
+## Download
 
 iUSDK is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:

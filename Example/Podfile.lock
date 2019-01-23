@@ -1,5 +1,5 @@
 PODS:
-  - iUSDK (0.1.0)
+  - iUSDK (0.1.4)
 
 DEPENDENCIES:
   - iUSDK (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  iUSDK: 4e9bd30219d4add237eeb59d7577b38f0e6a6dfb
+  iUSDK: 1538296c5b9c7065f22e0fbac7598ea2a3bb6c02
 
 PODFILE CHECKSUM: a6ef1ef8c855beb43b98ccd8c5c069565e5c3dba
 

@@ -1,9 +1,9 @@
 {
   "name": "iUSDK",
-  "version": "0.1.0",
-  "summary": "A short description of iUSDK.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/victorlsn@gmail.com/iUSDK",
+  "version": "0.1.4",
+  "summary": "An iOS Lib for retrieving iPhone Contacts",
+  "description": "This library is used to simplify the process of retrieving contacts from iPhone agenda.",
+  "homepage": "https://github.com/victorlsn/iUSDK-iOS.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,15 @@
     "victorlsn@gmail.com": "victor@iuapp.com.br"
   },
   "source": {
-    "git": "https://github.com/victorlsn@gmail.com/iUSDK.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/victorlsn/iUSDK-iOS.git",
+    "tag": "0.1.4"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "iUSDK/Classes/**/*"
+  "source_files": "iUSDK/Classes/*.swift",
+  "frameworks": [
+    "Foundation",
+    "Contacts"
+  ]
 }

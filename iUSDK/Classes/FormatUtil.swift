@@ -8,14 +8,14 @@
 
 import Foundation
 
-public class FormatUtil {
+internal class FormatUtil {
     /**
      Este método converte uma string de telefone com 8-14 dígitos para o formato (XX) YYYYY-YYYY
      
      - Parameter phoneNumber: String contendo o número de telefone em formato fora de padrão
      - Returns: String contendo o número de telefone devidamente formatado
      */
-    static func getValidPhoneNumber(_ phoneNumber: String, _ userAreaCode: String) -> String {
+    internal static func getValidPhoneNumber(_ phoneNumber: String, _ userAreaCode: String) -> String {
         var validPhoneNumber = FormatUtil.stripNonNumericDigitsFromString(phoneNumber)
         
         let startingIndex = validPhoneNumber.startIndex
@@ -96,7 +96,7 @@ public class FormatUtil {
      
      - Returns: String contendo apenas dígitos numéricos
      */
-    static func stripNonNumericDigitsFromString(_ originalString: String) -> String {
+    internal func stripNonNumericDigitsFromString(_ originalString: String) -> String {
         let charactersToKeep = NSMutableCharacterSet()
         charactersToKeep.addCharacters(in: "1234567890")
         let result = originalString.filter {  return  String($0).rangeOfCharacter(from: charactersToKeep as CharacterSet) != nil  }

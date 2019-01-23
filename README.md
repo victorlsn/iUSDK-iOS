@@ -16,7 +16,7 @@ pod 'iUSDK'
 
 ## Author
 
-victorlsn@gmail.com, victor@iuapp.com.br
+victorlsn@gmail.com
 
 ## License
 

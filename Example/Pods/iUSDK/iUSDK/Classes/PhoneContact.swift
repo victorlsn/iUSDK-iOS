@@ -18,11 +18,11 @@ public class PhoneContact : NSObject {
     /**
      String contendo o nome do contato
      */
-    public var name : String = ""
+    var name : String = ""
     /**
      String contendo o número de telefone do contato
      */
-    public var phone : String = ""
+    var phone : String = ""
     
     convenience init(name: String)
     {

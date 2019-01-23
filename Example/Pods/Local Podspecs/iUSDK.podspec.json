@@ -1,6 +1,6 @@
 {
   "name": "iUSDK",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "summary": "An iOS Lib for retrieving iPhone Contacts",
   "description": "This library is used to simplify the process of retrieving contacts from iPhone agenda.",
   "homepage": "https://github.com/victorlsn/iUSDK-iOS.git",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/victorlsn/iUSDK-iOS.git",
-    "tag": "0.1.4"
+    "tag": "0.1.5"
   },
   "platforms": {
     "ios": "8.0"

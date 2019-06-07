@@ -19,6 +19,7 @@ public class ContactsController : NSObject {
      */
     public static func doContactsRoutine(userAreaCode : String) -> [PhoneContact] {
         let contactsStore = self.contactStore
+        var teste = ""
         let fetchRequest = CNContactFetchRequest(keysToFetch: [CNContactGivenNameKey as CNKeyDescriptor,
                                                                CNContactFamilyNameKey as CNKeyDescriptor,
                                                                CNContactPhoneNumbersKey as CNKeyDescriptor])
